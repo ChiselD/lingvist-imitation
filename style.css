@@ -1,3 +1,48 @@
+.float-left {
+  display: block;
+  float: left;
+}
+
+.float-right {
+  display: block;
+  float: right;
+}
+
+#logo {
+  text-transform: uppercase;
+}
+
+#get-started {
+  width: 230px;
+  height: 60px;
+  font-size: inherit;
+  border-radius: 10px;
+}
+
+#site-language {
+  opacity: 0.5;
+}
+
 body {
-  background-color: orange;
+  background-color: rgb(21,53,124);
+  color: white;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+}
+
+nav {
+  border: 2px solid red;
+  padding: 2em;
+}
+
+main {
+  border: 2px solid goldenrod;
+  width: 40%;
+  margin: 8em 10em;
+  padding: 2em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 400;
 }
