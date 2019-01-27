@@ -6,6 +6,19 @@
 .float-right {
   display: block;
   float: right;
+  color: white;
+  z-index: 1;
+}
+
+#blob {
+	background-color: rgb(87,191,123);
+	width: 800px;
+	height: 800px;
+	border-radius: 100%;
+	position: absolute;
+	top: -450px;
+	right: -300px;
+	z-index: 0;
 }
 
 #logo {
